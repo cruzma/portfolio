@@ -24,12 +24,12 @@ export const Contact = () => {
 
             <div className="contact-form">
             <h3>Leave me a Message</h3>
-            <form >
+            <form action="https://formsubmit.co/mtaycruz@gmail.com" method="POST" >
                 <label htmlFor="contact-name">Your Name</label>
                 <input type="text" name="name"  id="contact-name" placeholder="Your Name" />
 
                 <label htmlFor="email">Email:</label>
-                <input type="email" name="email"   placeholder="your email"/>
+                <input type="email" name="email"   placeholder="your email" required/>
 
                 <label htmlFor="contact-message">Message</label>
                 <textarea id="contact-message" name="message"  placeholder="message"  ></textarea>
