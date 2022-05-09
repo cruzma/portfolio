@@ -26,7 +26,7 @@ export const Contact = () => {
             <h3>Leave me a Message</h3>
             <form action="https://formsubmit.co/mtaycruz@gmail.com" method="POST" >
                 <label htmlFor="contact-name">Your Name</label>
-                <input type="text" name="name"  id="contact-name" placeholder="Your Name" />
+                <input type="text" name="name"  id="contact-name" placeholder="Your Name" required/>
 
                 <label htmlFor="email">Email:</label>
                 <input type="email" name="email"   placeholder="your email" required/>
