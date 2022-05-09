@@ -17,7 +17,7 @@ export const About = () => {
         <br/>
         <p>Health and Fitness is also one of my passions so when I'm not coding you could find me at a gym, soccer field or basketball court.</p>
         <br/>
-        <p>I also love to travel. Before the travel restrictions were placed, I was in Mexico, Philippines, Cuba, and United States. Once the pandemic is done I hope to travel to Japan, El Salvador, Iceland.</p>
+        <p>I also love to travel. Before the travel restrictions were placed, I was in Mexico, Philippines, Cuba, and United States. I hope to travel to Japan, El Salvador, Iceland.</p>
         <br/>
         <p>I am looking forward to adding my skills to an already well driven and quality oriented team. Please feel free to contact me. </p>
         </div>
