@@ -5,6 +5,8 @@ import { Home } from './pages/Home';
 import { Projects } from './pages/Projects';
 import { Skills } from './pages/Skills';
 import { Navbar } from './componentts/Navbar';
+import { Footer } from './componentts/Footer';
+import { Contact } from './pages/Contact';
 
 function App() {
   return (
@@ -16,18 +18,12 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     
-      {/* <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul> */}
+
     </div>
   );
 }
