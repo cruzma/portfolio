@@ -10,13 +10,14 @@ import npm from "./../assets/images/Npm-logo.svg"
 import github from "./../assets/images/github.svg"
 import mongodb from "./../assets/images/mongodb.svg";
 import heroku from "./../assets/images/heroku.svg";
-// import resume from "./../assets/MateoCruzCV.pdf"
+
 
 export const Skills = () => {
   return (
     <section className="hero">
     <div className="proficiencies">
-        <p>Download my resume here: </p><a href={require("./../assets/MateoCruzCV.pdf").default} id="resume">Resume</a>
+        <p>Download my resume here: </p>
+        <a href={require("./../assets/MateoCruzCV.pdf")} id="resume">Resume</a>
         <br/>      
         <h3>My Proficiencies</h3>
         <ul className='skills-list'>
