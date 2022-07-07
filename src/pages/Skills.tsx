@@ -17,7 +17,7 @@ export const Skills = () => {
     <section className="hero">
     <div className="proficiencies">
         <p>Download my resume here: </p>
-        <a href={require("./../assets/MateoCruzCV.pdf")} id="resume">Resume</a>
+        <a href={require("./../assets/MateoCruzResume.docx.pdf")} id="resume">Resume</a>
         <br/>      
         <h3>My Proficiencies</h3>
         <ul className='skills-list'>
