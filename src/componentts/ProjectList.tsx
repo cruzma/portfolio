@@ -43,7 +43,7 @@ export const ProjectList = () => {
             Title: "Dwindle",
             description: "A Job board that helps it's users dwindle down their student loan debt",
             github: "https://github.com/chingu-voyages/v39-geckos-team-05",
-            website: "https://cheery-hamster-3c8aba.netlify.app/",
+            website: "https://peppy-pika-fe5e5b.netlify.app/",
             name: 'dwindle'
         },
     ]
